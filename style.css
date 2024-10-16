@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box; /* Забезпечує правильний розрахунок відступів */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Стиль для посилань в меню */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Додаємо плавний перехід */
+}
+
+/* Ефект при наведенні на елемент меню */
+nav ul li a:hover {
+    color: #FFD700; /* Зміна кольору тексту на золотий при наведенні */
+    transform: scale(1.1); /* Легке збільшення елемента меню */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    height: 25px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стилізація розділу "Нормативно-правова база вчителя" */
+#legal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#legal h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#legal h3 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#legal ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#legal ul li {
+    margin: 8px 0;
+}
+
+#legal a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#legal a:hover {
+    text-decoration: underline;
+    color: #388E3C;
+}
+
+#legal p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Стилізація розділу "Ігри для дітей" */
+#games {
+    background-color: #f9f9f9; /* Світло-зелений фон для привабливого вигляду */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#games h2 {
+    color: #388E3C; /* Темно-зелений колір заголовка */
+    border-bottom: 2px solid #388E3C;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#games h3 {
+    color: #2E7D32; /* Трохи темніший зелений для підзаголовків */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#games ul {
+    list-style-type: square; /* Зміна маркерів списку для різноманітності */
+    margin-left: 20px;
+}
+
+#games ul li {
+    margin: 8px 0;
+}
+
+#games a {
+    color: #1B5E20; /* Темно-зелений для посилань */
+    text-decoration: none;
+}
+
+#games a:hover {
+    text-decoration: underline;
+    color: #004D40; /* Зміна кольору при наведенні для інтерактивності */
+}
+
+#games p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
